@@ -67,7 +67,7 @@ const relatedVideos = [
 
 export default function MachineCoding() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen ">
       <main className="container px-4 py-12 md:px-6">
         <div className="space-y-8">
           <div className="space-y-4">
@@ -86,9 +86,9 @@ export default function MachineCoding() {
             <TabsContent value="topics" className="space-y-4">
               <div className="grid gap-6 md:grid-cols-2">
                 {topics.map((topic, index) => (
-                  <Card key={index}>
+                  <Card key={index}  className="card-main-page w-[600px]">
                     <CardHeader>
-                      <CardTitle className="flex items-center justify-between">
+                      <CardTitle className="flex items-center justify-between text-white">
                         {topic.title}
                         <Link to={`#${topic.title.toLowerCase().replace(/\s+/g, '-')}`}>
                           <ArrowRight className="h-5 w-5 text-gray-400 hover:text-gray-600 transition-colors" />

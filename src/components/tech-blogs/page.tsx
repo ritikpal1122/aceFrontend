@@ -34,9 +34,9 @@ export default function Blogs() {
     : blogPosts.filter(post => post.category === selectedCategory)
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen">
   
-      <main className="container px-4 py-12 md:px-6">
+      <main className="container px-4 py-12 md:px-6" style={{margin:"0 auto"}}>
         <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl mb-8">Frontend Blog Posts</h1>
         <div className="mb-6">
           <Select onValueChange={setSelectedCategory} defaultValue="All">

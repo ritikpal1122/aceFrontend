@@ -31,7 +31,7 @@ const topics = [
     description:
       "Browser, Authentication, Security, Performance Optimization, Accessibility, i18n etc.",
     icon: Chrome,
-    href: "/ui-technologies",
+    href: "/ui-ux",
   },
   {
     title: "React JS",

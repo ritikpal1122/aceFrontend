@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export function HeroSection() {
   return (
     <motion.section
-      className="w-full py-12 md:py-24 pt-0 lg:py-32 xl:py-48 bg-gradient-to-r from-gray-900 via-black to-gray-800 animate-gradient-dark"
+      className="w-full py-12 md:py-24 pt-0 lg:py-32 xl:py-48 bg-gradient-to-r from-gray-900 via-black to-gray-800 animate-gradient-dark main-hero-section"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1.5 }}

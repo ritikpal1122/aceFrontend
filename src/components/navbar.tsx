@@ -29,6 +29,18 @@ export function NavBar() {
             >
               Blogs/Notes
             </Link>
+            <Link
+              to="/frontend-roadmap"
+              className="transition-colors hover:text-orange-500 "
+            >
+              Frontend Roadmap
+            </Link>
+            <Link
+              to="/backend-roadmap"
+              className="transition-colors hover:text-orange-500 "
+            >
+              Backend RoadMap
+            </Link>
           </nav>
         </div>
         {/* <div className="flex  items-center justify-between space-x-2 md:justify-end">

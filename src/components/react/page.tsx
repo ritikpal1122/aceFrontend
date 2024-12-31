@@ -182,7 +182,7 @@ const difficultyColors = {
 
 export default function ReactJS() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen ">
 
       <main className="container px-4 py-12 md:px-6">
         <motion.div
@@ -233,7 +233,7 @@ export default function ReactJS() {
               <TabsContent key={section} value={section} className="space-y-8">
                 {topics[section].map((topic, topicIndex) => (
                   <motion.div key={topicIndex} variants={itemVariants}>
-                    <Card>
+                    <Card  className="card-main-page">
                       <CardHeader>
                         <CardTitle className="flex items-center justify-between">
                           <span className="flex items-center space-x-2">
@@ -261,7 +261,7 @@ export default function ReactJS() {
                               variants={itemVariants}
                             >
                               <CheckCircle className="h-4 w-4 text-green-500" />
-                              <span>{item}</span>
+                              <span className="text-white">{item}</span>
                               <Link 
                                 to="#" 
                                 className="ml-auto text-gray-400 hover:text-gray-600 transition-colors"
@@ -271,7 +271,7 @@ export default function ReactJS() {
                             </motion.li>
                           ))}
                         </ul>
-                        <h3 className="text-xl font-semibold mb-2 flex items-center justify-between">
+                        <h3 className="text-xl text-white font-semibold mb-2 flex items-center justify-between">
                           Related Videos
                           <ArrowRight className="h-5 w-5 text-orange-500" />
                         </h3>
