@@ -160,3 +160,8 @@ body::-webkit-scrollbar-thumb {
     @apply bg-background text-foreground;
   }
 }
+
+
+.main-code{
+  border: 1px solid red;
+}
